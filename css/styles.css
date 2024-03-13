@@ -28,11 +28,12 @@ img{
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px
 }
 
 .header{
     border-bottom: 1px solid #e7e9fc;
+    padding: 0 15px 0 15px
+
 }
 
 .header-container {
@@ -295,10 +296,11 @@ footer{
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
+
 }
 .footer-cont{
     width: 264px;
-    margin-right: auto;
+margin-left: 66px;
 }
 .logo-two{
     text-decoration: none;
@@ -310,6 +312,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-bottom: 16px;
+display: inline-block;
 }
 .span-two{
     color: #f4f4fd;
