@@ -32,7 +32,6 @@ img{
 
 .header{
     border-bottom: 1px solid #e7e9fc;
-    padding: 0 15px 0 15px;
 }
 
 .header-container {
@@ -46,6 +45,8 @@ img{
     display: flex;
     align-items: center;
     flex-grow: 1;
+    padding: 0 15px 0 15px;
+
 }
 
 ul{
@@ -197,6 +198,7 @@ color: #434455;
 
 .card-list{
     display: flex;
+    gap: 24px; 
 }
 
 .title-two{
@@ -212,7 +214,12 @@ margin-bottom: 72px;
 
 .card{
 background-color: #FFFFFF;
-margin-right: 24px;
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;
+}
+
+.name-prof{
+    padding: 32px 0 32px;
 }
 
 .name{
@@ -222,7 +229,6 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2E2F42;
-margin-top: 32px;
 margin-bottom: 8px;
 }
 
@@ -233,7 +239,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
-margin-bottom: 32px;
 }
 
 /*.title3{
