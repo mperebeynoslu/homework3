@@ -158,7 +158,7 @@ padding-top: 120px;
 }
 
 .visually-hidden{
-    overflow: hidden !important;
+    overflow: hidden;
 }
 
 .header-sec-t-list{
