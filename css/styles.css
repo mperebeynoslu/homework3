@@ -38,8 +38,6 @@ img{
 .header-container {
     display: flex;
     justify-content: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-navigation{
@@ -88,6 +86,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
+display: block;
 padding-top: 24px;
 padding-bottom: 24px;
 }
