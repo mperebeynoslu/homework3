@@ -16,12 +16,13 @@ h4,
 h5,
 h6,
 p {
-  margin-bottom: 0;
-  margin-top: 0;
+margin: 0;
 }
 
 img{
     display: block;
+    height: auto;
+    max-width: 100%;
 }
 
 
@@ -38,6 +39,7 @@ img{
 .header-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .header-navigation{
@@ -85,14 +87,14 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: left;
 display: block;
 padding-top: 24px;
 padding-bottom: 24px;
 }
 
 address{
-    font-style: normal
+    font-style: normal;
+    margin-left: auto;
 }
 
 .contacts{
@@ -112,9 +114,6 @@ text-align: left;
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
-    margin: 0 auto;
-    text-align: center;
-    justify-content: center;
 }
 
 .title{
@@ -125,7 +124,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: white;
 max-width: 496px;
-padding-bottom: 46px;
+margin: 0 auto;
 }
 
 .button{
@@ -139,8 +138,9 @@ text-align: center;
 background-color: #4D5AE5;
 cursor: pointer;
 min-width: 169px;
-height: 56px;
-padding: 16px, 32px, 16px, 32px;
+padding: 16px 32px 16px 32px;
+margin: 0 auto;
+margin-top: 48px;
 border-radius: 4px;
 gap: 10px;
 display: block;
@@ -174,7 +174,6 @@ padding-top: 120px;
 }
 
 .li-sec-t{
-    /*width: 264px;*/
     width: calc((100% - 72px) / 4);
 }
 
@@ -193,7 +192,6 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: left;
 color: #434455;
 }
 
@@ -226,6 +224,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .name-prof{
+    display: block;
     padding: 32px 0 32px;
 }
 
@@ -266,6 +265,7 @@ color: #2E2F42;
 .card-portflio{
     display: flex;
     flex-wrap: wrap;
+    align-content: space-between;
     column-gap: 24px;
     row-gap: 48px;
 }
@@ -279,6 +279,7 @@ border-color: #E7E9FC;
 }
 
 .name-app-two{
+    display: block;
     padding: 32px 16px;
     border: 1px solid #e7e9fc; 
     border-top: none;
@@ -309,10 +310,7 @@ footer{
     padding-bottom: 100px;
 
 }
-.footer-cont{
-    width: 264px;
-margin-left: 66px;
-}
+
 .logo-two{
     text-decoration: none;
     font-family: "Raleway", sans-serif;
@@ -331,10 +329,10 @@ display: inline-block;
 }
 
 .description{
+max-width: 264px;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: left;
 color: #F4F4FD;
 }
